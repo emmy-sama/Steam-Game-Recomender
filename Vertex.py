@@ -1,18 +1,18 @@
 class Vertex:
-    def __init__(self, value):
+    def __init__(self, value: any):
         self.value = value
         self.edges = {}
 
-    def add_edge(self, vertex_value, weight=0):
+    def add_edge(self, vertex_value: any, weight=0):
         if isinstance(vertex_value, dict):
             self.edges[vertex_value.get("Name")] = weight
         else:
             self.edges[vertex_value] = weight
 
-    def get_edges(self):
+    def get_edges(self) -> list:
         return list(self.edges.keys())
 
-    def print_self(self):
+    def print_self(self) -> None:
         if isinstance(self.value, dict):
             data = self.value
             print("--------------------------------------------------")

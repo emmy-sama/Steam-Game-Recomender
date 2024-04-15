@@ -65,7 +65,7 @@ def print_title():
     """)
 
 
-def get_top_level_genre():
+def get_top_level_genre() -> str:
     print("(1) Action (2) Role-Playing-Game\n"
           "(3) Strategy (4) Adventure \n"
           "(5) Simulation (6) Sports and Racing\n")
@@ -77,7 +77,7 @@ def get_top_level_genre():
         return get_top_level_genre()
 
 
-def get_price_limit():
+def get_price_limit() -> float:
     try:
         print("Do you have a price limit?")
         price_limit = float(input("Enter 0 for no limit or enter a number $0.01-$100.00: $"))
@@ -90,7 +90,7 @@ def get_price_limit():
     return price_limit
 
 
-def sub_genre_include(include_list=None, finished=False):
+def sub_genre_include(include_list=None, finished=False) -> list:
     if include_list is None:
         include_list = []
     if finished is True:
@@ -108,7 +108,7 @@ def sub_genre_include(include_list=None, finished=False):
     return sub_genre_include(include_list, finished)
 
 
-def sub_genre_exclude(exclude_list=None, finished=False):
+def sub_genre_exclude(exclude_list=None, finished=False) -> list:
     if exclude_list is None:
         exclude_list = []
     if finished is True:
@@ -126,7 +126,7 @@ def sub_genre_exclude(exclude_list=None, finished=False):
     return sub_genre_exclude(exclude_list, finished)
 
 
-def get_finished():
+def get_finished() -> bool:
     y_n = input("Add another sub-genre? (1) Yes (2) No: ")
     if y_n == "1":
         return False
@@ -145,7 +145,7 @@ def filter_by_price(limit: float, games: list):
             games.remove(game)
 
 
-def filter_by_include(include_list, games: list):
+def filter_by_include(include_list: list, games: list):
     games_to_check = games.copy()
     for genre in include_list:
         for game in games_to_check:
@@ -157,7 +157,7 @@ def filter_by_include(include_list, games: list):
         games.remove(game)
 
 
-def filter_by_exclude(exclude_list, games: list):
+def filter_by_exclude(exclude_list: list, games: list):
     for genre in exclude_list:
         for game in games:
             if genre not in game.value.get("Sub-Genres"):
