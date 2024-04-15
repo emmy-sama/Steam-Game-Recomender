@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CodeAcademyLearning/.idea/CodeAcademyLearning.iml" filepath="$PROJECT_DIR$/../CodeAcademyLearning/.idea/CodeAcademyLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Steam-Game-Recomender.iml" filepath="$PROJECT_DIR$/.idea/Steam-Game-Recomender.iml" />
+    </modules>
+  </component>
+</project>

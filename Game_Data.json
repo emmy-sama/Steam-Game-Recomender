@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "HELLDIVERS 2",
+    "Rating": 85,
+    "Release Date": "Feb 8, 2024",
+    "Player Count": "1-4",
+    "Genres": ["Action"],
+    "Sub-Genres": ["Third-Person Shooter", "PvE", "Co-Op"],
+    "Price": 39.99
+  },
+  {
+    "Name": "Counter-Strike 2",
+    "Rating": 87,
+    "Release Date": "Aug 21, 2012",
+    "Player Count": "1-5",
+    "Genres": ["Action", "Strategy"],
+    "Sub-Genres": ["First-Person Shooter", "PvP", "Team-Based"],
+    "Price": 0
+  },
+  {
+    "Name": "Warframe",
+    "Rating": 87,
+    "Release Date": "Mar 25, 2013",
+    "Player Count": "1-4",
+    "Genres": ["Action", "RPG"],
+    "Sub-Genres": ["Third-Person Shooter", "PvE", "Co-Op"],
+    "Price": 0
+  },
+  {
+    "Name": "Rainbow Six Siege",
+    "Rating": 85,
+    "Release Date": "Dec 1, 2015",
+    "Player Count": "1-10",
+    "Genres": ["Action", "Strategy"],
+    "Sub-Genres": ["First-Person Shooter", "PvP", "Team-Based"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Destiny 2",
+    "Rating": 80,
+    "Release Date": "Oct 1, 2019",
+    "Player Count": "1-3",
+    "Genres": ["Action", "Rpg"],
+    "Sub-Genres": ["First-Person Shooter", "PvP","PvE"],
+    "Price": 0
+  },
+  {
+    "Name": "Apex Legends",
+    "Rating": 78,
+    "Release Date": "Nov 4, 2020",
+    "Player Count": "1-3",
+    "Genres": ["Action"],
+    "Sub-Genres": ["First-Person Shooter", "PvP", "Battle Royale"],
+    "Price": 0
+  },
+  {
+    "Name": "War Thunder",
+    "Rating": 75,
+    "Release Date": "Aug 15, 2013",
+    "Player Count": "1-4",
+    "Genres": ["Action", "Simulation"],
+    "Sub-Genres": ["Realistic", "Third-Person Shooter"],
+    "Price": 0
+  },
+  {
+    "Name": "Grand Theft Auto V",
+    "Rating": 87,
+    "Release Date": "Apr 14,2013",
+    "Player Count": "1-30",
+    "Genres": ["Action", "Adventure"],
+    "Sub-Genres": ["Open-World", "Shooter", "Crime"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Rust",
+    "Rating": 87,
+    "Release Date": "Feb 8, 2018",
+    "Player Count": "1-100",
+    "Genres": ["Action", "Adventure"],
+    "Sub-Genres": ["Survival", "Open-World", "Shooter"],
+    "Price": 39.99
+  },
+  {
+    "Name": "Dead by Daylight",
+    "Rating": 80,
+    "Release Date": "Jun 14, 2016",
+    "Player Count": "1-5",
+    "Genres": ["Action"],
+    "Sub-Genres": ["Horror", "Co-Op", "PvP"],
+    "Price": 19.99
+  },
+    {
+    "Name": "Gigantic",
+    "Rating": 73,
+    "Release Date": "Apr 9, 2024",
+    "Player Count": "1-5",
+    "Genres": ["Action"],
+    "Sub-Genres": ["Moba", "PvP", "Third-Person Shooter"],
+    "Price": 19.99
+  },
+    {
+    "Name": "PUBG: BATTLEGROUNDS",
+    "Rating": 58,
+    "Release Date": "Dec 21, 2017",
+    "Player Count": "1-4",
+    "Genres": ["Action"],
+    "Sub-Genres": ["Shooter", "PvP", "Battle Royale"],
+    "Price": 0
+  },
+    {
+    "Name": "Call of Duty: Modern Warfare III",
+    "Rating": 54,
+    "Release Date": "Nov 10, 2023",
+    "Player Count": "1-6",
+    "Genres": ["Action"],
+    "Sub-Genres": ["First-Person Shooter"],
+    "Price": 69.99
+  },
+    {
+    "Name": "ARK: Survival Ascended",
+    "Rating": 58,
+    "Release Date": "Oct 26, 2023",
+    "Player Count": "1-50",
+    "Genres": ["Action", "Adventure"],
+    "Sub-Genres": ["Survival", "Open-World", "PvP"],
+    "Price": 44.99
+  },
+    {
+    "Name": "Palworld",
+    "Rating": 93,
+    "Release Date": "Jan 19, 2024",
+    "Player Count": "1-32",
+    "Genres": ["Action", "Rpg", "Adventure"],
+    "Sub-Genres": ["Survival", "Open-World", "PvE"],
+    "Price": 29.99
+  },
+    {
+    "Name": "Tekken 8",
+    "Rating": 77,
+    "Release Date": "Jan 25, 2024",
+    "Player Count": "1-2",
+    "Genres": ["Action", "Arcade"],
+    "Sub-Genres": ["Fighting", "PvP"],
+    "Price": 69.99
+  }
+]
