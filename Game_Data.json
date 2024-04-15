@@ -142,5 +142,149 @@
     "Genres": ["Action", "Arcade"],
     "Sub-Genres": ["Fighting", "PvP"],
     "Price": 69.99
+  },
+  {
+    "Name": "FINAL FANTASY XIV Online",
+    "Rating": 88,
+    "Release Date": "Feb 18, 2014",
+    "Player Count": "1-5",
+    "Genres": ["Rpg", "Action", "Adventure"],
+    "Sub-Genres": ["Jrpg", "MMO", "Co-Op"],
+    "Price": 19.99
+  },
+  {
+    "Name": "The Elder Scrolls Online",
+    "Rating": 83,
+    "Release Date": "Apr 4, 2014",
+    "Player Count": "1-12",
+    "Genres": ["Rpg", "Action", "Adventure"],
+    "Sub-Genres": ["MMO", "PvP", "PvE"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Baldur's Gate 3",
+    "Rating": 96,
+    "Release Date": "Aug 3, 2023",
+    "Player Count": "1-4",
+    "Genres": ["Rpg", "Adventure", "Strategy"],
+    "Sub-Genres": ["Turn-Based", "Co-Op", "Romance"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Lost Ark",
+    "Rating": 71,
+    "Release Date": "Feb 11, 2022",
+    "Player Count": "1-4",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["MMO", "Hack and Slash", "PvP", "PvE"],
+    "Price": 0
+  },
+  {
+    "Name": "Fallout 76",
+    "Rating": 75,
+    "Release Date": "Apr 14, 2020",
+    "Player Count": "1-4",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Open-World", "Survival", "Shooter"],
+    "Price": 39.99
+  },
+  {
+    "Name": "Path of Exile",
+    "Rating": 88,
+    "Release Date": "Oct 23, 2013",
+    "Player Count": "1-6",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Hack and Slash", "PvP", "PvE"],
+    "Price": 0
+  },
+  {
+    "Name": "ELDEN RING",
+    "Rating": 92,
+    "Release Date": "Feb 24, 2022",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Souls-Like", "Open-World", "Co-Op", "PvP"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Dragon's Dogma 2",
+    "Rating": 59,
+    "Release Date": "Mar 21, 2024",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Action", "Adventure"],
+    "Sub-Genres": ["Open-World", "PvE", "Magic"],
+    "Price": 69.99
+  },
+  {
+    "Name": "STAR WARS: The Old Republic",
+    "Rating": 89,
+    "Release Date": "Dec 20, 2011",
+    "Player Count": "1-4",
+    "Genres": ["Rpg", "Adventure", "Action"],
+    "Sub-Genres": ["MMO", "Open-World", "PvE", "PvP"],
+    "Price": 0
+  },
+  {
+    "Name": "Fallout 4",
+    "Rating": 83,
+    "Release Date": "Nov 9, 2015",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Shooter", "Survival"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Black Desert",
+    "Rating": 76,
+    "Release Date": "May 24, 2017",
+    "Player Count": "1-20",
+    "Genres": ["Rpg", "Adventure", "Action"],
+    "Sub-Genres": ["MMO", "Open-World", "PvE", "PvP"],
+    "Price": 9.99
+  },
+  {
+    "Name": "Persona 3 Reload",
+    "Rating": 95,
+    "Release Date": "Feb 1, 2024",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Strategy"],
+    "Sub-Genres": ["Turn-Based", "Jrpg", "Party-Based"],
+    "Price": 69.99
+  },
+  {
+    "Name": "Horizon Forbidden West",
+    "Rating": 91,
+    "Release Date": "Mar 21, 2024",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Open-World", "Stealth"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Cyberpunk 2077",
+    "Rating": 83,
+    "Release Date": "Dec 9, 2020",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Open-World", "First-Person Shooter"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Monster Hunter: World",
+    "Rating": 88,
+    "Release Date": "Aug 8, 2018",
+    "Player Count": "1-4",
+    "Genres": ["Rpg", "Action"],
+    "Sub-Genres": ["Co-Op", "Souls-Like", "Jrpg"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Fallout: New Vegas",
+    "Rating": 96,
+    "Release Date": "Oct 19, 2010",
+    "Player Count": "1",
+    "Genres": ["Rpg", "Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Shooter", "Survival"],
+    "Price": 9.99
   }
 ]

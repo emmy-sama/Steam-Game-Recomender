@@ -38,13 +38,18 @@ def main_function():
     if price_limit != 0:
         filter_by_price(price_limit, working_list)
     print_title()
-    include_list = sub_genre_include()
-    filter_by_include(include_list, working_list)
+    include_yes = yes_no("Would you like to specify any sub-genres that a game must be to be included? (1) Yes (2) No: ")
+    if include_yes:
+        include_list = sub_genre_include()
+        filter_by_include(include_list, working_list)
     print_title()
-    exclude_list = sub_genre_exclude()
-    filter_by_exclude(exclude_list, working_list)
+    exclude_yes = yes_no("Would you like to specify any sub-genres that will be used to exclude games? (1) Yes (2) No: ")
+    if exclude_yes:
+        exclude_list = sub_genre_exclude()
+        filter_by_exclude(exclude_list, working_list)
     print_title()
     print_game_list(working_list)
+    run_again()
 
 
 def print_title():
@@ -100,7 +105,7 @@ def sub_genre_include(include_list=None, finished=False) -> list:
         print(f"{count}: {item}")
         count += 1
     try:
-        index = int(input("Would you like to specify any sub-genres that a game must be to be included? "))
+        index = int(input("Sub-genre to add to included-list? "))
         include_list.append(sub_genres[index - 1])
     except ValueError or IndexError:
         print("Not a valid input")
@@ -118,7 +123,7 @@ def sub_genre_exclude(exclude_list=None, finished=False) -> list:
         print(f"{count}: {item}")
         count += 1
     try:
-        index = int(input("Would you like to specify any sub-genres that will be used to exclude games? "))
+        index = int(input("Sub-genres to add exclude-list? "))
         exclude_list.append((sub_genres[index - 1]))
     except ValueError or IndexError:
         print("Not a valid input")
@@ -134,7 +139,18 @@ def get_finished() -> bool:
         return True
     else:
         print("Please try again")
-        get_finished()
+        return get_finished()
+
+
+def yes_no(text_input: str) -> bool:
+    y_n = input(text_input)
+    if y_n == "1":
+        return True
+    elif y_n == "2":
+        return False
+    else:
+        print("Please try again")
+        return yes_no(text_input)
 
 
 def filter_by_price(limit: float, games: list):
@@ -171,6 +187,15 @@ def print_game_list(games):
         game.print_self()
 
 
+def run_again():
+    again = input("Would you like to get another game? (1) Yes (2) No: ")
+    if again == "1":
+        main_function()
+    elif again == "2":
+        print("Goodbye!")
+    else:
+        print("Please try again")
+        run_again()
+
+
 main_function()
-
-
