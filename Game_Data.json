@@ -286,5 +286,149 @@
     "Genres": ["Rpg", "Adventure", "Action"],
     "Sub-Genres": ["Open-World", "Shooter", "Survival"],
     "Price": 9.99
+  },
+  {
+    "Name": "Stellaris",
+    "Rating": 88,
+    "Release Date": "May 9, 2016",
+    "Player Count": "1-32",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Grand-Strategy", "4X", "Real-Time-Strategy"],
+    "Price": 39.99
+  },
+  {
+    "Name": "RimWorld",
+    "Rating": 98,
+    "Release Date": "Oct 17, 2018",
+    "Player Count": "1",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Survival", "City Builder", "Management"],
+    "Price": 34.99
+  },
+  {
+    "Name": "Sid Meier’s Civilization VI",
+    "Rating": 86,
+    "Release Date": "Oct 20, 2016",
+    "Player Count": "1-12",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Turn-Based", "Grand Strategy", "4X"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Balatro",
+    "Rating": 97,
+    "Release Date": "Feb 20, 2024",
+    "Player Count": "1",
+    "Genres": ["Strategy"],
+    "Sub-Genres": ["Card Game", "Turn-Based", "Rougelite"],
+    "Price": 14.99
+  },
+  {
+    "Name": "Crusader Kings III",
+    "Rating": 91,
+    "Release Date": "Sep 1, 2020",
+    "Player Count": "1-64",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Grand Strategy", "Real-Time-Strategy", "4X"],
+    "Price": 49.99
+  },
+  {
+    "Name": "Yu-Gi-Oh! Master Duel",
+    "Rating": 75,
+    "Release Date": "Jan 18, 2022",
+    "Player Count": "1-2",
+    "Genres": ["Strategy"],
+    "Sub-Genres": ["Card Game", "PvP", "Turn-Based"],
+    "Price": 0
+  },
+  {
+    "Name": "Infection Free Zone",
+    "Rating": 68,
+    "Release Date": "Apr 11, 2024",
+    "Player Count": "1",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["City Builder", "Real-Time-Strategy", "Survival"],
+    "Price": 24.99
+  },
+  {
+    "Name": "Total War: WARHAMMER III",
+    "Rating": 62,
+    "Release Date": "Feb 17, 2022",
+    "Player Count": "1-8",
+    "Genres": ["Strategy"],
+    "Sub-Genres": ["Turn-Based", "Grand Strategy", "Real-Time-Strategy"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Hearts of Iron IV",
+    "Rating": 91,
+    "Release Date": "Jun 6, 2016",
+    "Player Count": "1-64",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["PvP", "PvE", "Grand Strategy", "Real-Time-Strategy"],
+    "Price": 49.99
+  },
+  {
+    "Name": "Summoners War",
+    "Rating": 70,
+    "Release Date": "Jan 7, 2024",
+    "Player Count": "1-2",
+    "Genres": ["Strategy", "Rpg"],
+    "Sub-Genres": ["Real-Time-Strategy", "Turn-Based", "PvP", "PvE"],
+    "Price": 0
+  },
+  {
+    "Name": "Magic: The Gathering Arena",
+    "Rating": 65,
+    "Release Date": "May 23, 2023",
+    "Player Count": "1-2",
+    "Genres": ["Strategy"],
+    "Sub-Genres": ["Card Game", "PvP", "Turn-Based"],
+    "Price": 0
+  },
+  {
+    "Name": "Planet Zoo",
+    "Rating": 90,
+    "Release Date": "Nov 5, 2019",
+    "Player Count": "1",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["City Builder"],
+    "Price": 44.99
+  },
+  {
+    "Name": "Dota 2",
+    "Rating": 81,
+    "Release Date": "Jul 9, 2013",
+    "Player Count": "1-5",
+    "Genres": ["Strategy"],
+    "Sub-Genres": ["MOBA", "Team-Based", "PvP"],
+    "Price": 0
+  },
+  {
+    "Name": "Millennia",
+    "Rating": 67,
+    "Release Date": "Mar 26, 2024",
+    "Player Count": "1-8",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Turn-Based", "4X", "PvP", "PvE"],
+    "Price": 39.99
+  },
+  {
+    "Name": "Jurassic World Evolution 2",
+    "Rating": 88,
+    "Release Date": "Nov 9, 2021",
+    "Player Count": "1",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["City Builder"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Tabletop Simulator",
+    "Rating": 96,
+    "Release Date": "Jun 5, 2015",
+    "Player Count": "1-10",
+    "Genres": ["Strategy", "Simulation"],
+    "Sub-Genres": ["Board Game", "Card Game", "Co-Op"],
+    "Price": 19.99
   }
 ]
