@@ -5,7 +5,7 @@
     "Release Date": "Feb 8, 2024",
     "Player Count": "1-4",
     "Genres": ["Action"],
-    "Sub-Genres": ["Third-Person Shooter", "PvE", "Co-Op"],
+    "Sub-Genres": ["Shooter", "PvE", "Co-Op"],
     "Price": 39.99
   },
   {
@@ -14,7 +14,7 @@
     "Release Date": "Aug 21, 2012",
     "Player Count": "1-5",
     "Genres": ["Action", "Strategy"],
-    "Sub-Genres": ["First-Person Shooter", "PvP", "Team-Based"],
+    "Sub-Genres": ["Shooter", "PvP"],
     "Price": 0
   },
   {
@@ -23,7 +23,7 @@
     "Release Date": "Mar 25, 2013",
     "Player Count": "1-4",
     "Genres": ["Action", "RPG"],
-    "Sub-Genres": ["Third-Person Shooter", "PvE", "Co-Op"],
+    "Sub-Genres": ["Shooter", "PvE", "Co-Op"],
     "Price": 0
   },
   {
@@ -32,7 +32,7 @@
     "Release Date": "Dec 1, 2015",
     "Player Count": "1-10",
     "Genres": ["Action", "Strategy"],
-    "Sub-Genres": ["First-Person Shooter", "PvP", "Team-Based"],
+    "Sub-Genres": ["Shooter", "PvP"],
     "Price": 19.99
   },
   {
@@ -41,7 +41,7 @@
     "Release Date": "Oct 1, 2019",
     "Player Count": "1-3",
     "Genres": ["Action", "Rpg"],
-    "Sub-Genres": ["First-Person Shooter", "PvP","PvE"],
+    "Sub-Genres": ["Shooter", "PvP","PvE"],
     "Price": 0
   },
   {
@@ -50,7 +50,7 @@
     "Release Date": "Nov 4, 2020",
     "Player Count": "1-3",
     "Genres": ["Action"],
-    "Sub-Genres": ["First-Person Shooter", "PvP", "Battle Royale"],
+    "Sub-Genres": ["Shooter", "PvP", "Battle Royale"],
     "Price": 0
   },
   {
@@ -59,7 +59,7 @@
     "Release Date": "Aug 15, 2013",
     "Player Count": "1-4",
     "Genres": ["Action", "Simulation"],
-    "Sub-Genres": ["Realistic", "Third-Person Shooter"],
+    "Sub-Genres": ["Shooter"],
     "Price": 0
   },
   {
@@ -68,7 +68,7 @@
     "Release Date": "Apr 14,2013",
     "Player Count": "1-30",
     "Genres": ["Action", "Adventure"],
-    "Sub-Genres": ["Open-World", "Shooter", "Crime"],
+    "Sub-Genres": ["Open-World", "Shooter"],
     "Price": 29.99
   },
   {
@@ -95,7 +95,7 @@
     "Release Date": "Apr 9, 2024",
     "Player Count": "1-5",
     "Genres": ["Action"],
-    "Sub-Genres": ["Moba", "PvP", "Third-Person Shooter"],
+    "Sub-Genres": ["MOBA", "PvP", "Shooter"],
     "Price": 19.99
   },
     {
@@ -113,7 +113,7 @@
     "Release Date": "Nov 10, 2023",
     "Player Count": "1-6",
     "Genres": ["Action"],
-    "Sub-Genres": ["First-Person Shooter"],
+    "Sub-Genres": ["Shooter"],
     "Price": 69.99
   },
     {
@@ -167,7 +167,7 @@
     "Release Date": "Aug 3, 2023",
     "Player Count": "1-4",
     "Genres": ["Rpg", "Adventure", "Strategy"],
-    "Sub-Genres": ["Turn-Based", "Co-Op", "Romance"],
+    "Sub-Genres": ["Turn-Based", "Co-Op"],
     "Price": 59.99
   },
   {
@@ -212,7 +212,7 @@
     "Release Date": "Mar 21, 2024",
     "Player Count": "1",
     "Genres": ["Rpg", "Action", "Adventure"],
-    "Sub-Genres": ["Open-World", "PvE", "Magic"],
+    "Sub-Genres": ["Open-World", "PvE"],
     "Price": 69.99
   },
   {
@@ -248,7 +248,7 @@
     "Release Date": "Feb 1, 2024",
     "Player Count": "1",
     "Genres": ["Rpg", "Strategy"],
-    "Sub-Genres": ["Turn-Based", "Jrpg", "Party-Based"],
+    "Sub-Genres": ["Turn-Based", "Jrpg"],
     "Price": 69.99
   },
   {
@@ -266,7 +266,7 @@
     "Release Date": "Dec 9, 2020",
     "Player Count": "1",
     "Genres": ["Rpg", "Action"],
-    "Sub-Genres": ["Open-World", "First-Person Shooter"],
+    "Sub-Genres": ["Open-World", "Shooter"],
     "Price": 59.99
   },
   {
@@ -293,7 +293,7 @@
     "Release Date": "May 9, 2016",
     "Player Count": "1-32",
     "Genres": ["Strategy", "Simulation"],
-    "Sub-Genres": ["Grand-Strategy", "4X", "Real-Time-Strategy"],
+    "Sub-Genres": ["Grand Strategy", "4X", "Real Time Strategy"],
     "Price": 39.99
   },
   {
@@ -329,7 +329,7 @@
     "Release Date": "Sep 1, 2020",
     "Player Count": "1-64",
     "Genres": ["Strategy", "Simulation"],
-    "Sub-Genres": ["Grand Strategy", "Real-Time-Strategy", "4X"],
+    "Sub-Genres": ["Grand Strategy", "Real Time Strategy", "4X"],
     "Price": 49.99
   },
   {
@@ -347,7 +347,7 @@
     "Release Date": "Apr 11, 2024",
     "Player Count": "1",
     "Genres": ["Strategy", "Simulation"],
-    "Sub-Genres": ["City Builder", "Real-Time-Strategy", "Survival"],
+    "Sub-Genres": ["City Builder", "Real Time Strategy", "Survival"],
     "Price": 24.99
   },
   {
@@ -356,7 +356,7 @@
     "Release Date": "Feb 17, 2022",
     "Player Count": "1-8",
     "Genres": ["Strategy"],
-    "Sub-Genres": ["Turn-Based", "Grand Strategy", "Real-Time-Strategy"],
+    "Sub-Genres": ["Turn-Based", "Grand Strategy", "Real Time Strategy"],
     "Price": 59.99
   },
   {
@@ -365,16 +365,16 @@
     "Release Date": "Jun 6, 2016",
     "Player Count": "1-64",
     "Genres": ["Strategy", "Simulation"],
-    "Sub-Genres": ["PvP", "PvE", "Grand Strategy", "Real-Time-Strategy"],
+    "Sub-Genres": ["PvP", "PvE", "Grand Strategy", "Real Time Strategy"],
     "Price": 49.99
   },
   {
-    "Name": "SuMMOners War",
+    "Name": "Summoners War",
     "Rating": 70,
     "Release Date": "Jan 7, 2024",
     "Player Count": "1-2",
     "Genres": ["Strategy", "Rpg"],
-    "Sub-Genres": ["Real-Time-Strategy", "Turn-Based", "PvP", "PvE"],
+    "Sub-Genres": ["Real Time Strategy", "Turn-Based", "PvP", "PvE"],
     "Price": 0
   },
   {
@@ -401,7 +401,7 @@
     "Release Date": "Jul 9, 2013",
     "Player Count": "1-5",
     "Genres": ["Strategy"],
-    "Sub-Genres": ["MOBA", "Team-Based", "PvP"],
+    "Sub-Genres": ["MOBA", "PvP"],
     "Price": 0
   },
   {
@@ -428,7 +428,7 @@
     "Release Date": "Jun 5, 2015",
     "Player Count": "1-10",
     "Genres": ["Strategy", "Simulation"],
-    "Sub-Genres": ["Board Game", "Card Game", "Co-Op"],
+    "Sub-Genres": ["Card Game", "Co-Op"],
     "Price": 19.99
   },
   {
@@ -437,7 +437,7 @@
     "Release Date": "Dec 5, 2019",
     "Player Count": "1",
     "Genres": ["Adventure", "Action"],
-    "Sub-Genres": ["Open-World", "Shooter", "Western"],
+    "Sub-Genres": ["Open-World", "Shooter"],
     "Price": 59.99
   },
   {
@@ -446,7 +446,7 @@
     "Release Date": "Feb 10, 2023",
     "Player Count": "1",
     "Genres": ["Adventure", "Rpg"],
-    "Sub-Genres": ["Open-World", "Puzzle", "Fantasy"],
+    "Sub-Genres": ["Open-World", "Puzzle"],
     "Price": 59.99
   },
   {
@@ -482,7 +482,7 @@
     "Release Date": "Jul 19, 2022",
     "Player Count": "1",
     "Genres": ["Adventure"],
-    "Sub-Genres": ["Exploration", "Puzzle", "Cyberpunk"],
+    "Sub-Genres": ["Exploration", "Puzzle"],
     "Price": 29.99
   },
   {
@@ -500,7 +500,7 @@
     "Release Date": "Jun 18, 2020",
     "Player Count": "1",
     "Genres": ["Adventure"],
-    "Sub-Genres": ["Exploration", "Puzzle", "Space"],
+    "Sub-Genres": ["Exploration", "Puzzle"],
     "Price": 24.99
   },
   {
@@ -518,7 +518,7 @@
     "Release Date": "Aug 12, 2016",
     "Player Count": "2-4",
     "Genres": ["Adventure"],
-    "Sub-Genres": ["Open-World", "Space", "Survival"],
+    "Sub-Genres": ["Open-World", "Survival"],
     "Price": 59.99
   },
   {
@@ -545,7 +545,7 @@
     "Release Date": "Apr 27, 2023",
     "Player Count": "1",
     "Genres": ["Adventure", "Action", "Rpg"],
-    "Sub-Genres": ["Souls-Like", "Open-World", "Space"],
+    "Sub-Genres": ["Souls-Like", "Open-World"],
     "Price": 69.99
   },
   {
@@ -572,7 +572,7 @@
     "Release Date": "Mar 30, 2023",
     "Player Count": "1",
     "Genres": ["Adventure"],
-    "Sub-Genres": ["Open-World", "Horror", "Sailing"],
+    "Sub-Genres": ["Open-World", "Horror"],
     "Price": 24.99
   },
   {
@@ -824,7 +824,7 @@
     "Release Date": "Nov 6, 2023",
     "Player Count": "1",
     "Genres": ["Sports and Racing", "Simulation"],
-    "Sub-Genres": ["Management", "Real-Time-Strategy"],
+    "Sub-Genres": ["Management", "Real Time Strategy"],
     "Price": 59.99
   },
   {
@@ -869,7 +869,7 @@
     "Release Date": "Oct 27, 2016",
     "Player Count": "1",
     "Genres": ["Rpg", "Adventure"],
-    "Sub-Genres": ["Open-World", "Stealth", "Fantasy"],
+    "Sub-Genres": ["Open-World", "Stealth"],
     "Price": 39.99
   },
   {
@@ -887,7 +887,7 @@
     "Release Date": "May 18, 2015",
     "Player Count": "1",
     "Genres": ["Rpg", "Adventure"],
-    "Sub-Genres": ["Open-World", "Fantasy"],
+    "Sub-Genres": ["Open-World"],
     "Price": 39.99
   },
   {
