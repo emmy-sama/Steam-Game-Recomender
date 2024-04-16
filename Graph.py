@@ -17,12 +17,6 @@ class Graph:
         if not self.directed:
             self.graph_dict.get(to_vertex.value).add_edge(from_vertex.value, weight)
 
-    def print_top_level_genre(self):
-        for key, value in self.graph_dict.items():
-            if key in ["Action", "RPG", "Strategy", "Adventure", "Simulation", "Sports and Racing"]:
-                print(key)
-                print(value.get_edges())
-
     def filter_by_top_genre(self, genre: str) -> list:
         genre_vertex = self.graph_dict.get(genre)
         games = genre_vertex.get_edges()
