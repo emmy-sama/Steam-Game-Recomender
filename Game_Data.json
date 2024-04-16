@@ -430,5 +430,437 @@
     "Genres": ["Strategy", "Simulation"],
     "Sub-Genres": ["Board Game", "Card Game", "Co-Op"],
     "Price": 19.99
+  },
+  {
+    "Name": "Red Dead Redemption 2",
+    "Rating": 91,
+    "Release Date": "Dec 5, 2019",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Shooter", "Western"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Hogwarts Legacy",
+    "Rating": 91,
+    "Release Date": "Feb 10, 2023",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Rpg"],
+    "Sub-Genres": ["Open-World", "Puzzle", "Fantasy"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Sea of Thieves",
+    "Rating": 90,
+    "Release Date": "Jun 3, 2020",
+    "Player Count": "1-4",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Co-Op", "PvP"],
+    "Price": 39.99
+  },
+  {
+    "Name": "Pacific Drive",
+    "Rating": 83,
+    "Release Date": "Feb 22, 2024",
+    "Player Count": "1",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Survival", "Horror", "Exploration"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Terraria",
+    "Rating": 97,
+    "Release Date": "May 16, 2011",
+    "Player Count": "1-8",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Sandbox", "Survival", "Open-World"],
+    "Price": 9.99
+  },
+  {
+    "Name": "Stray",
+    "Rating": 97,
+    "Release Date": "Jul 19, 2022",
+    "Player Count": "1",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Exploration", "Puzzle", "Cyberpunk"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Batman: Arkham Knight",
+    "Rating": 91,
+    "Release Date": "Jun 23, 2015",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Fighting", "Horror"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Outer Wilds",
+    "Rating": 95,
+    "Release Date": "Jun 18, 2020",
+    "Player Count": "1",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Exploration", "Puzzle", "Space"],
+    "Price": 24.99
+  },
+  {
+    "Name": "Dead Cells",
+    "Rating":97,
+    "Release Date": "Aug 6, 2018",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Souls-Like", "Hack and Slash", "Rougelite"],
+    "Price": 24.99
+  },
+  {
+    "Name": "No Man's Sky",
+    "Rating": 78,
+    "Release Date": "Aug 12, 2016",
+    "Player Count": "2-4",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Open-World", "Space", "Survival"],
+    "Price": 59.99
+  },
+  {
+    "Name": "Warhammer 40,000: Darktide",
+    "Rating": 67,
+    "Release Date": "Nov 30, 2022",
+    "Player Count": "1-4",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Co-Op", "PvE", "Hack and Slash"],
+    "Price": 39.99
+  },
+  {
+    "Name": "DAVE THE DIVER",
+    "Rating": 97,
+    "Release Date": "Jun 28, 2023",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Rpg"],
+    "Sub-Genres": ["Management", "Farming Sim", "Rougelite"],
+    "Price": 19.99
+  },
+  {
+    "Name": "STAR WARS Jedi: Survivor",
+    "Rating": 66,
+    "Release Date": "Apr 27, 2023",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action", "Rpg"],
+    "Sub-Genres": ["Souls-Like", "Open-World", "Space"],
+    "Price": 69.99
+  },
+  {
+    "Name": "Like a Dragon: Infinite Wealth",
+    "Rating": 91,
+    "Release Date": "Jan 25, 2024",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action", "Rpg"],
+    "Sub-Genres": ["Jrpg", "Hack and Slash", "Turn-Based"],
+    "Price": 69.99
+  },
+  {
+    "Name": "Assassin’s Creed IV Black Flag",
+    "Rating": 88,
+    "Release Date": "Oct 19, 2013",
+    "Player Count": "1",
+    "Genres": ["Adventure", "Action"],
+    "Sub-Genres": ["Open-World", "Stealth"],
+    "Price": 39.99
+  },
+  {
+    "Name": "DREDGE",
+    "Rating": 95,
+    "Release Date": "Mar 30, 2023",
+    "Player Count": "1",
+    "Genres": ["Adventure"],
+    "Sub-Genres": ["Open-World", "Horror", "Sailing"],
+    "Price": 24.99
+  },
+  {
+    "Name": "RimWorld",
+    "Rating": 98,
+    "Release Date": "Oct 17, 2018",
+    "Player Count": "1",
+    "Genres": ["Simulation", "Strategy"],
+    "Sub-Genres": ["Survival", "Management", "City Builder"],
+    "Price": 34.99
+  },
+  {
+    "Name": "Stardew Valley",
+    "Rating": 98,
+    "Release Date": "Feb 26, 2016",
+    "Player Count": "1-4",
+    "Genres": ["Simulation", "Rpg"],
+    "Sub-Genres": ["Life Sim", "Farming Sim"],
+    "Price": 14.99
+  },
+  {
+    "Name": "Supermarket Simulator",
+    "Rating": 94,
+    "Release Date": "Feb 20, 2024",
+    "Player Count": "1",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Management", "Life Sim"],
+    "Price": 12.99
+  },
+  {
+    "Name": "The Sims 4",
+    "Rating": 87,
+    "Release Date": "Sep 2, 2014",
+    "Player Count": "1",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Life Sim", "Sandbox"],
+    "Price": 0
+  },
+  {
+    "Name": "American Truck Simulator",
+    "Rating": 97,
+    "Release Date": "Feb 2, 2016",
+    "Player Count": "1-8",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["Open-World", "Management"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Farming Simulator 22",
+    "Rating": 92,
+    "Release Date": "Nov 22,2021",
+    "Player Count": "1-16",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Farming Sim", "Management", "Co-Op"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Arma Reforger",
+    "Rating": 65,
+    "Release Date": "Nov 16, 2023",
+    "Player Count": "1-64",
+    "Genres": ["Simulation", "Action"],
+    "Sub-Genres": ["Shooter", "PvP", "PvE"],
+    "Price": 29.99
+  },
+  {
+    "Name": "SnowRunner",
+    "Rating": 89,
+    "Release Date": "May 17, 2021",
+    "Player Count": "1-4",
+    "Genres": ["Simulation", "Adventure"],
+    "Sub-Genres": ["Exploration", "Open-World"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Cities: Skylines II",
+    "Rating": 53,
+    "Release Date": "Oct 24, 2023",
+    "Player Count": "1",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["City Builder", "Sandbox", "Management"],
+    "Price": 49.99
+  },
+  {
+    "Name": "Cities: Skylines",
+    "Rating": 93,
+    "Release Date": "Mar 10, 2015",
+    "Player Count": "1",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["City Builder", "Sandbox", "Management"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Arma 3",
+    "Rating": 91,
+    "Release Date": "Sep 12, 2013",
+    "Player Count": "1-64",
+    "Genres": ["Simulation", "Action"],
+    "Sub-Genres": ["Shooter", "PvP", "PvE"],
+    "Price": 29.99
+  },
+  {
+    "Name": "Disney Dreamlight Valley",
+    "Rating": 91,
+    "Release Date": "Dec 5, 2023",
+    "Player Count": "1",
+    "Genres": ["Simulation", "Adventure"],
+    "Sub-Genres": ["Life Sim", "Exploration", "Farming Sim"],
+    "Price": 39.99
+  },
+  {
+    "Name": "House Flipper",
+    "Rating": 93,
+    "Release Date": "May 17, 2018",
+    "Player Count": "1",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Sandbox", "Management", "Life Sim"],
+    "Price": 24.99
+  },
+  {
+    "Name": "PowerWash Simulator",
+    "Rating": 97,
+    "Release Date": "Jul 14, 2022",
+    "Player Count": "1-4",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Sandbox", "Co-Op", "Life Sim"],
+    "Price": 24.99
+  },
+  {
+    "Name": "Escape Simulator",
+    "Rating": 94,
+    "Release Date": "Oct 19, 2021",
+    "Player Count": "2-10",
+    "Genres": ["Simulation"],
+    "Sub-Genres": ["Puzzle", "Co-Op"],
+    "Price": 19.99
+  },
+  {
+    "Name": "Garry's Mod",
+    "Rating": 96,
+    "Release Date": "Nov 29, 2006",
+    "Player Count": "1-128",
+    "Genres": ["Simulation", "Action"],
+    "Sub-Genres": ["Sandbox", "Co-Op", "Shooter"],
+    "Price": 9.99
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
+  },
+  {
+    "Name": "",
+    "Rating": 0,
+    "Release Date": "",
+    "Player Count": "",
+    "Genres": ["Simulation", ""],
+    "Sub-Genres": ["", "", ""],
+    "Price": 0
   }
 ]
