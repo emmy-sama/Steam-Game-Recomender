@@ -19,15 +19,6 @@ for g in top_level_genres:
         if g in game.value.get("Genres"):
             game_graph.add_edge(genre_vertex, game)
 
-sub_genres = []
-for game in game_data:
-    for s_g in game.get("Sub-Genres"):
-        if s_g in sub_genres:
-            continue
-        else:
-            sub_genres.append(s_g)
-sub_genres.sort()
-
 
 def main_function():
     print_title()
@@ -40,12 +31,14 @@ def main_function():
     print_title()
     include_yes = yes_no("Would you like to specify any sub-genres that a game must be to be included? (1) Yes (2) No: ")
     if include_yes:
-        include_list = sub_genre_include()
+        include_list = sub_genre_include(working_list)
         filter_by_include(include_list, working_list)
+    else:
+        include_list = None
     print_title()
     exclude_yes = yes_no("Would you like to specify any sub-genres that will be used to exclude games? (1) Yes (2) No: ")
     if exclude_yes:
-        exclude_list = sub_genre_exclude()
+        exclude_list = sub_genre_exclude(working_list, include_list)
         filter_by_exclude(exclude_list, working_list)
     print_title()
     print_game_list(working_list)
@@ -95,40 +88,68 @@ def get_price_limit() -> float:
     return price_limit
 
 
-def sub_genre_include(include_list=None, finished=False) -> list:
+def get_sub_genre_list(games: list) -> list:
+    sub_genres = []
+    for game in games:
+        for s_g in game.value.get("Sub-Genres"):
+            if s_g in sub_genres:
+                continue
+            else:
+                sub_genres.append(s_g)
+    sub_genres.sort()
+    return sub_genres
+
+
+def sub_genre_include(games: list, sub_genres=None, include_list=None, finished=False) -> list:
+    if include_list is not None:
+        filter_by_include(include_list, games)
     if include_list is None:
         include_list = []
     if finished is True:
         return include_list
+    print_title()
+    sub_genres = get_sub_genre_list(games)
     count = 1
     for item in sub_genres:
-        print(f"{count}: {item}")
-        count += 1
+        if item in include_list:
+            continue
+        else:
+            print(f"{count}: {item}")
+            count += 1
     try:
         index = int(input("Sub-genre to add to included-list? "))
         include_list.append(sub_genres[index - 1])
     except ValueError or IndexError:
         print("Not a valid input")
     finished = get_finished()
-    return sub_genre_include(include_list, finished)
+    return sub_genre_include(games, sub_genres, include_list, finished)
 
 
-def sub_genre_exclude(exclude_list=None, finished=False) -> list:
+def sub_genre_exclude(games: list, include_list, sub_genres=None, exclude_list=None, finished=False) -> list:
+    if exclude_list is not None:
+        filter_by_exclude(exclude_list, games)
     if exclude_list is None:
         exclude_list = []
+    if include_list is None:
+        include_list = []
     if finished is True:
         return exclude_list
+    print_title()
+    sub_genres = get_sub_genre_list(games)
     count = 1
     for item in sub_genres:
-        print(f"{count}: {item}")
-        count += 1
+        if item in include_list or item in exclude_list:
+            continue
+        else:
+            print(f"{count}: {item}")
+            count += 1
     try:
         index = int(input("Sub-genres to add exclude-list? "))
         exclude_list.append((sub_genres[index - 1]))
     except ValueError or IndexError:
         print("Not a valid input")
     finished = get_finished()
-    return sub_genre_exclude(exclude_list, finished)
+    return sub_genre_exclude(games, include_list, sub_genres, exclude_list, finished)
 
 
 def get_finished() -> bool:
