@@ -154,32 +154,20 @@ def yes_no(text_input: str) -> bool:
 
 
 def filter_by_price(limit: float, games: list):
-    for game in games:
-        if game.value.get("Price") <= limit:
-            continue
-        else:
-            games.remove(game)
+    games[:] = [game for game in games if game.value.get("Price") <= limit]
 
 
 def filter_by_include(include_list: list, games: list):
     games_to_check = games.copy()
     for genre in include_list:
-        for game in games_to_check:
-            if genre not in game.value.get("Sub-Genres"):
-                continue
-            else:
-                games_to_check.remove(game)
+        games_to_check[:] = [game for game in games_to_check if genre not in game.value.get("Sub-Genres")]
     for game in games_to_check:
         games.remove(game)
 
 
 def filter_by_exclude(exclude_list: list, games: list):
     for genre in exclude_list:
-        for game in games:
-            if genre not in game.value.get("Sub-Genres"):
-                continue
-            else:
-                games.remove(game)
+        games[:] = [game for game in games if genre not in game.value.get("Sub-Genres")]
 
 
 def print_game_list(games):
